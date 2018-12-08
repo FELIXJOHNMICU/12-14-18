@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.photos{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background-image: url(../pictures/pic1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.photos h1{
+	color: #FFFFFF;
+	font-family: "Lato Heavy"
+}
+.photos h3{
+	color: yellow;
+	font-family: "Lato"
+}
+.photos a img{
+	filter: grayscale(100);
+	transition: 0.4s all;
+}
+.photos a:hover > img{
+	filter: none;
+}
+.logo{
+	size: 10px;
+}
+.box2{
+	height: 100vh;
+	width: 100%;
+	background-color: #EDEAE5;
+	background-size: cover;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	display: grid;
+	background-attachment: fixed;
+}
+.box2 h1{
+	text-align: center;
+	color: #FC4A1A;
+}
+.box2 h2{
+	color: #0375B4;
+	text-align: center;
+	font-family: Archivo;
+}
+h4{
+	color: #FC4A1A;
+	margin-bottom: -10px;
+	color: orange;
+	font-size: 25px;
+}
+#onebox h4{
+	margin-left: 80px;
+}
+#twobox h4{
+	margin-left: 80px;
+}
+#threebox h4{
+	color: #FC4A1A;
+	margin-bottom: -10px;
+	color: orange;
+	font-size: 25px;
+	margin-left: 240px;
+	
+}
+#onebox{
+	grid-column: 1/4
+	border: 10px solid black;
+	background-size: cover;
+	margin-left: 50px;
+}
+#twobox{
+	grid-column: 3/4
+
+}
+#threebox h2{
+	text-align: center;
+}
+#threebox{
+	margin-right: -200px;
+}
+.box3{
+	margin-top: 10px;
+	height: 25vh;
+	width: 100%;
+	background-color: #696969;
+	background-size: cover;
+}
+.box3 img{
+	{
+    position: absolute;
+    z-index: -1
+  
+}
+}
+.fa-user-graduate{
+	color: #265077;
+	font-size: 5em;
+	margin-left:100px;
+	margin-top: 40px;
+
+}
+.fa-briefcase{
+	color: #1E3258;
+	font-size: 5em;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 30%
+}
+.fa-comment{
+	color: #022140;
+	font-size: 5em;
+	margin-top: 40px;
+	margin-left: 60%;
+}
+.checked {
+    color: orange;
+    text-align: center;
+}
+.fa-star{
+	font-size: 50em;
+	margin-left: 10%;
+}
+.w3-round{
+	margin-left: 10%;	
+}
+.w3-round1{
+	margin-left: 10%;
+	margin-top: 10%;
+}
+ul{
+	text-align: center;
+	margin-left: 100px;
+}
+
+.fa-facebook-f{
+	font-size: 4em;
+	margin-left: 43%;
+	margin-top: 40px;
+}
+.fa-twitter{
+	font-size: 4em;
+	margin-left: 10px
+}
+.fa-google{
+	font-size: 4em;
+	margin-left: 10px
+}
+.fa-youtube{
+	font-size: 4em;
+	margin-left: 10px
+}
+
